@@ -1,0 +1,35 @@
+.nav ul{
+	list-style-type: none;
+	overflow: hidden;
+	background-color: #243cbf;
+	padding: 0px;
+	margin: 0px 30px;
+	font-family: "Lobster Two", Helvetica, serif;
+	font-size: 20px;
+}
+.nav li{
+	float: left;
+	border-right: 5px solid #fa5041;
+}
+.nav li:last-child{
+	float: right;
+	border-right: none;
+}
+.nav li a{
+	display: block;
+	text-align: center;
+	text-decoration: none;
+	color: #fa5041;
+	padding: 10px 40px;
+}
+.nav li a:hover:not(.active){
+	background-color: #003366;
+	color: #fa5041;
+}
+.nav .active{
+	background-color: #fa5041;
+	color: #243cbf;
+	border-left: 3px dotted #fa5041;
+	border-right: 3px dotted #fa5041;
+	font-family: "Helvetica", Lobster Two, serif;
+}
