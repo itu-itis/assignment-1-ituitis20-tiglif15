@@ -1,0 +1,16 @@
+body{
+//	background-color: #0F2DA3;
+}
+h1{
+	font-family: "Impact", serif;
+}
+p{
+	font-family: "Helvetica", sans-serif;
+}
+.content{
+	padding: 30px;
+	margin: 30px;
+}
+.content{
+	background-color: #fa5041;
+	color: #243cbf;
