@@ -7,10 +7,20 @@ h1{
 p{
 	font-family: "Helvetica", sans-serif;
 }
-.content{
+.cont{
 	padding: 30px;
 	margin: 30px;
-}
-.content{
 	background-color: #fa5041;
 	color: #243cbf;
+}
+
+table{
+	width: 100%;
+	text-align: center;
+	font-family: "Calibri", sans-serif;
+}
+
+.tab td{
+	border: 3px solid #FFC40C;
+	padding: 10px;
+}
